@@ -7,7 +7,6 @@
 }
 body {
     background-color: #ffe6f2; /* fondo rosado pastel */
-}
 .emoji-background {
     position: fixed;
     top: 20px;
@@ -15,4 +14,10 @@ body {
     font-size: 200px;
     opacity: 0.15;
     pointer-events: none;
+    .center-text {
+    text-align: center;
+    font-size: 22px;          /* tamaño bonito */
+    margin-top: 15px;         /* espacio arriba */
+    font-weight: 500;         /* un poco más grueso */
+}
 }
