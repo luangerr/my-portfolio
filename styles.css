@@ -1,0 +1,10 @@
+.section-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+body {
+    background-color: #ffe6f2; /* fondo rosado pastel */
+}
