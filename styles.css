@@ -6,7 +6,7 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 body {
-    background-color: #ffe6f2; /* fondo rosado pastel */
+    background-color: #ffe6f2; 
 .emoji-background {
     position: fixed;
     top: 20px;
@@ -16,8 +16,8 @@ body {
     pointer-events: none;
     .center-text {
     text-align: center;
-    font-size: 22px;          /* tamaño bonito */
-    margin-top: 15px;         /* espacio arriba */
-    font-weight: 500;         /* un poco más grueso */
+    font-size: 22px;         
+    margin-top: 15px;     
+    font-weight: 500;        
 }
 }
