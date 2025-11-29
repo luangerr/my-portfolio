@@ -8,6 +8,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+section-container {
+  display: flex;
+  gap: 20px;       /* separación entre cajas */
+  justify-content: center;
+  flex-wrap: wrap; /* por si la pantalla es pequeña */
+}
 body {
     background-color: #ffe6f2; 
 .emoji-background {
