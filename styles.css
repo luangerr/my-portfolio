@@ -1,3 +1,4 @@
+/* Caja blanca estilo tarjeta */
 .section-box {
     background-color: white;
     padding: 25px;
@@ -8,12 +9,39 @@
     margin-left: auto;
     margin-right: auto;
 }
-section-container {
-  display: flex;
-  gap: 20px;       /* separación entre cajas */
-  justify-content: center;
-  flex-wrap: wrap; /* por si la pantalla es pequeña */
+
+/* Contenedor que organiza varias section-box en columnas */
+.section-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+/* Fondo pastel */
+body {
+    background-color: #ffe6f2;
+}
+
+/* Emoji gigante de fondo */
+.emoji-background {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 200px;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+/* Centrar textos como “I am from Venezuela…” */
+.center-text {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Skills */
 .skill-box {
     margin-bottom: 18px;
 }
@@ -26,29 +54,13 @@ section-container {
 .progress {
     width: 100%;
     height: 12px;
-    background: #ffe6f2; /* rosa pastel clarito */
+    background: #ffe6f2; /* Rosa pastel claro */
     border-radius: 10px;
     overflow: hidden;
 }
 
 .progress-bar {
     height: 100%;
-    background: linear-gradient(90deg, #ff7ac8, #ffb4e6); /* rosa degradado */
+    background: linear-gradient(90deg, #ff7ac8, #ffb4e6); /* Rosa degradado */
     border-radius: 10px;
-}
-body {
-    background-color: #ffe6f2; 
-.emoji-background {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 200px;
-    opacity: 0.15;
-    pointer-events: none;
-    .center-text {
-    text-align: center;
-    font-size: 22px;         
-    margin-top: 15px;     
-    font-weight: 500;        
-}
 }
