@@ -1,3 +1,7 @@
+.center-text {
+    text-align: center;
+}
+
 body {
     background-color: #ffe6f2;
     font-family: Arial, sans-serif;
