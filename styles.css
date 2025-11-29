@@ -14,6 +14,28 @@ section-container {
   justify-content: center;
   flex-wrap: wrap; /* por si la pantalla es pequeña */
 }
+.skill-box {
+    margin-bottom: 18px;
+}
+
+.skill-box p {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.progress {
+    width: 100%;
+    height: 12px;
+    background: #ffe6f2; /* rosa pastel clarito */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #ff7ac8, #ffb4e6); /* rosa degradado */
+    border-radius: 10px;
+}
 body {
     background-color: #ffe6f2; 
 .emoji-background {
