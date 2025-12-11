@@ -6,28 +6,28 @@ body {
     padding: 25px;
 }
 
-/* Caja general */
+/* General box */
 .section-box {
     background-color: white;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    width: 300px;           /* 👈 IMPORTANTE: ancho fijo para que no sean enormes */
+    width: 300px;           /* fixed width*/
 }
 
-/* GRID DE 3 CAJAS ARRIBA */
+/* GRID of three boxes*/
 .section-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: nowrap;      /* 👈 Las mantiene una AL LADO de la otra */
+    flex-wrap: nowrap;      /* It allows them to be togather */
     margin-bottom: 30px;
 }
 
-/* PROYECTOS (caja grande abajo) */
+/* botton box for recent projects */
 .section-wide {
-    width: 960px;           /* 👈 ancho grande abajo */
-    margin: 0 auto;         /* centrar la caja grande */
+    width: 960px;           /* whidth */
+    margin: 0 auto;         /* It allows it to be in center */
     background-color: white;
     padding: 25px;
     border-radius: 15px;
@@ -56,7 +56,7 @@ body {
     background: linear-gradient(90deg, #ff7ac8, #ffb4e6);
 }
 
-/* EMOJI DE FONDO */
+/* Emoji background*/
 .emoji-background {
     position: fixed;
     bottom: 20px;
