@@ -1,18 +1,30 @@
 <!doctype html>
 <html lang="es">
+<!-- Defines the document type and sets the page language -->
+
 <head>
   <meta charset="utf-8">
+  <!-- Ensures correct character encoding -->
+
   <title>Thais Da Silva</title>
+  <!-- Page title shown in the browser tab -->
+
   <link rel="stylesheet" href="styles.css">
+  <!-- Links the external CSS file used for styling the page -->
 </head>
 
 <body>
+  <!-- Main content of the webpage -->
+
   <center>
-  <h1>👋 Hi, I am Thais Da Silva</h1>
+    <!-- Centers the main title horizontally -->
+    <h1>👋 Hi, I am Thais Da Silva</h1>
+    <!-- Main heading of the portfolio -->
   </center>
 
   <p>
-   I am from Venezuela, but I have been living in the UK for around five years. My first
+    <!-- About Me section: personal background and introduction -->
+    I am from Venezuela, but I have been living in the UK for around five years. My first
     language is Spanish, and I am 25 years old. I consider myself an ambitious, clever, and
     well-organized person. I am passionate about learning new things, especially in the
     field of technology. I enjoy challenging myself, improving my skills, and working on
@@ -21,79 +33,148 @@
   </p>
 
   <h2>💻 I am a computer science student.</h2>
+  <!-- Short description of academic background -->
+
   <div class="section-grid">
+    <!-- section-grid:
+         This container groups multiple section-box elements.
+         It is used to arrange the sections side by side using CSS (Flexbox or Grid).
+    -->
 
     <div class="section-box">
-        <h2>✏️ What I am doing</h2>
-        <ul>
-            <li>🗹 Learning HTML</li>
-            <li>🗹 Improving time management</li>
-            <li>🗹 Learning C++</li>
-            <li>🗹 Developing teamwork skills</li>
-            <li>🗹 Learning Python</li>
-        </ul>
+      <!-- section-box:
+           A reusable white content box with padding, rounded corners and shadow.
+           Used to visually separate each main section of the portfolio.
+      -->
+
+      <h2>✏️ What I am doing</h2>
+      <ul>
+        <!-- List of current learning activities -->
+        <li>🗹 Learning HTML</li>
+        <li>🗹 Improving time management</li>
+        <li>🗹 Learning C++</li>
+        <li>🗹 Developing teamwork skills</li>
+        <li>🗹 Learning Python</li>
+      </ul>
     </div>
 
     <div class="section-box">
-        <h2>⚙️ Skills</h2>
+      <!-- section-box:
+           Another content box used for the Skills section.
+      -->
 
-        <div class="skill-box">
-            <p>HTML (beginner)</p>
-            <div class="progress"><div class="progress-bar" style="width: 30%;"></div></div>
-        </div>
+      <h2>⚙️ Skills</h2>
 
-        <div class="skill-box">
-            <p>Time management</p>
-            <div class="progress"><div class="progress-bar" style="width: 70%;"></div></div>
-        </div>
+      <div class="skill-box">
+        <!-- skill-box:
+             Represents one individual skill.
+             It contains the skill name and its visual progress bar.
+        -->
 
-        <div class="skill-box">
-            <p>C++ (beginner)</p>
-            <div class="progress"><div class="progress-bar" style="width: 40%;"></div></div>
-        </div>
+        <p>HTML (beginner)</p>
 
-        <div class="skill-box">
-            <p>Team working</p>
-            <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
+        <div class="progress">
+          <!-- progress:
+               The background container of the progress bar.
+               It defines the total width of the skill level.
+          -->
+
+          <div class="progress-bar" style="width: 30%;"></div>
+          <!-- progress-bar:
+               The filled part of the progress bar.
+               The width percentage visually represents the skill level.
+          -->
         </div>
+      </div>
+
+      <div class="skill-box">
+        <p>Time management</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p>C++ (beginner)</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 40%;"></div>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p>Team working</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
     </div>
 
     <div class="section-box">
-        <h2>🎀 Hobbies</h2>
-        <ul>
-            <li>🎮 Playing video games</li>
-            <li>✏️ Writing</li>
-            <li>📖 Reading novels</li>
-            <li>🧵 Making crafts</li>
-        </ul>
+      <!-- section-box:
+           Used for the Hobbies section.
+      -->
+
+      <h2>🎀 Hobbies</h2>
+      <ul>
+        <!-- List of personal interests -->
+        <li>🎮 Playing video games</li>
+        <li>✏️ Writing</li>
+        <li>📖 Reading novels</li>
+        <li>🧵 Making crafts</li>
+      </ul>
     </div>
 
-</div>
+  </div>
+  <!-- End of section-grid -->
 
-<div class="section-wide">
+  <div class="section-wide">
+    <!-- section-wide:
+         A wider container used for content that needs more horizontal space.
+         In this case, it is used for the Recent Projects section.
+    -->
+
     <h2>📁 Recent projects</h2>
+
     <ul>
-      <h4>Working on C++ projects like: </h4>
-      <li> Winning Division</li>
-      <p> This project determines which of a company’s four divisions has the highest sales for the quarter.
+      <!-- List that groups all project descriptions -->
+
+      <h4>Working on C++ projects like:</h4>
+
+      <li>Winning Division</li>
+      <p>
+        <!-- Description of the Winning Division project -->
+        This project determines which of a company’s four divisions has the highest sales for the quarter.
         I created two functions: one to safely collect the sales for each division, and another to compare all values and determine the highest.
-        This improved my skills in functions, conditionals, and logical decision-making in C++.</p>
-      <li> Isosceles Triangle Class </li>
-      <p> I created a class called IsoscelesTriangle that stores the base and height of the triangle. 
-            The program calculates both the area and the perimeter using a class with member functions. 
-            This project introduced me to object-oriented programming concepts, such as constructors, encapsulation, and class methods.</p>
-        
+        This improved my skills in functions, conditionals, and logical decision-making in C++.
+      </p>
+
+      <li>Isosceles Triangle Class</li>
+      <p>
+        <!-- Object-oriented programming project description -->
+        I created a class called IsoscelesTriangle that stores the base and height of the triangle. 
+        The program calculates both the area and the perimeter using a class with member functions. 
+        This project introduced me to object-oriented programming concepts, such as constructors, encapsulation, and class methods.
+      </p>
+
       <h4>Creating this portfolio using HTML + CSS</h4>
-        <p> Designed a responsive portfolio to present my skills, background, and projects. Hosted using GitHub Pages. 
-          Continually updated as I progress in my studies.</p>
-        <h4> Event Management ERD (In Progress)</h4>
-        <p> A database project where I am designing the relationships between events, organisers, venues, registrations, and feedback. 
-          Still in development as I refine the structure and connections.</p>
-  
+      <p>
+        <!-- Description of the portfolio project -->
+        Designed a responsive portfolio to present my skills, background, and projects. Hosted using GitHub Pages. 
+        Continually updated as I progress in my studies.
+      </p>
+
+      <h4>Event Management ERD (In Progress)</h4>
+      <p>
+        <!-- Database modelling project -->
+        A database project where I am designing the relationships between events, organisers, venues, registrations, and feedback. 
+        Still in development as I refine the structure and connections.
+      </p>
+
     </ul>
-</div>
+  </div>
 
-<div class="emoji-background">🌸</div>
+  <div class="emoji-background">🌸</div>
+  <!-- Decorative background emoji element -->
 
-
-    
+</body>
+</html>
